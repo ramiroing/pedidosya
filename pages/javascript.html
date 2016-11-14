@@ -1,0 +1,77 @@
+<div class="col-md-12">
+	<div class="col-md-3" style="padding-top:20px">
+		<div class="markerContainer col-md-12">
+			<div class="col-md-4">
+				<img src='https://maps.google.com/mapfiles/ms/micons/red-dot.png'/>
+			</div>
+			<div class="col-md-8">Pedidos YA</div>
+		</div>
+		<div class="markerContainer col-md-12">
+			<div class="col-md-4">
+				<img src='http://maps.google.com/mapfiles/ms/icons/green-dot.png'/>
+			</div><div class="col-md-8">Plaza Zabala</div>
+		</div>
+		<div class="markerContainer col-md-12">
+			<div class="col-md-4">
+				<img src='http://maps.google.com/mapfiles/ms/icons/yellow-dot.png'/>
+			</div><div class="col-md-8">Teatro Sol&iacute;s</div>
+		</div>
+		<div class="markerContainer col-md-12">
+			<div class="col-md-4">
+				<img src='http://maps.google.com/mapfiles/ms/icons/blue-dot.png'/>
+			</div><div class="col-md-8">Plaza del entrevero</div>
+		</div>
+		<div class="markerContainer col-md-12">
+			<div class="col-md-4">
+				<img src='http://maps.google.com/mapfiles/ms/icons/orange-dot.png'/>
+			</div><div class="col-md-8">Palacio Legislativo</div>
+		</div>
+		<div class="markerContainer col-md-12">
+			<div class="col-md-4">
+				<img src='http://maps.google.com/mapfiles/ms/icons/pink-dot.png'/>
+			</div><div class="col-md-8">Plaza L&iacute;ber Seregni</div>
+		</div>
+		<div class="markerContainer col-md-12">
+			<div class="col-md-4">
+				<img src='https://maps.google.com/mapfiles/ms/micons/sportvenue.png'/>
+			</div><div class="col-md-8">Estadio Centenario</div>
+		</div>
+		<div class="markerContainer col-md-12">
+			<div class="col-md-4">
+				<img src='https://maps.google.com/mapfiles/ms/micons/bus.png'/>
+			</div><div class="col-md-8">Terminal tres cruces</div>
+		</div>
+		<div class="markerContainer col-md-12">
+			<div class="col-md-4">
+				<img src='http://maps.google.com/mapfiles/ms/micons/ltblue-dot.png'/>
+			</div><div class="col-md-8">Parque Rod&oacute;</div>
+		</div>
+		<div class="markerContainer col-md-12">
+			<div class="col-md-4">
+				<img src='http://maps.google.com/mapfiles/ms/icons/purple-dot.png'/>
+			</div><div class="col-md-8">Monumento al gaucho</div>
+		</div>
+
+	</div>
+	<div style='padding-top: 20px' class="col-md-8">
+		<div id="map"></div>
+	</div>
+	<div class="col-md-1"></div>
+</div>
+    
+    <script>
+		function initMap() {
+			var map = new google.maps.Map(document.getElementById('map'), {zoom: 14, center: {lat: -34.901500, lng: -56.175018} });
+			new google.maps.Marker({ position: {lat: -34.9063427, lng: -56.1997376 }, map: map, icon: 'https://maps.google.com/mapfiles/ms/micons/red-dot.png'  });
+			new google.maps.Marker({ position: {lat: -34.907639, lng: -56.208125}, map: map, icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'  });
+			new google.maps.Marker({ position: {lat: -34.907461, lng: -56.201180}, map: map, icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png'  });
+			new google.maps.Marker({ position: {lat: -34.905617, lng: -56.194179}, map: map, icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'  });
+			new google.maps.Marker({ position:{lat: -34.891918, lng: -56.187303}, map: map, icon: 'http://maps.google.com/mapfiles/ms/icons/orange-dot.png' });
+			new google.maps.Marker({ position:{lat: -34.897323, lng: -56.171911}, map: map, icon: 'http://maps.google.com/mapfiles/ms/icons/pink-dot.png'  });
+			new google.maps.Marker({ position:{lat: -34.894824, lng: -56.152708}, map: map, icon: 'https://maps.google.com/mapfiles/ms/micons/sportvenue.png'  });
+			new google.maps.Marker({ position:{lat: -34.893878, lng: -56.165771}, map: map, icon: 'https://maps.google.com/mapfiles/ms/micons/bus.png'  });
+			new google.maps.Marker({ position:{lat: -34.912870, lng: -56.166199}, map: map, icon: 'http://maps.google.com/mapfiles/ms/micons/ltblue-dot.png'  });
+			new google.maps.Marker({ position:{lat: -34.905543, lng: -56.184887}, map: map, icon: 'http://maps.google.com/mapfiles/ms/icons/purple-dot.png'  });
+		}
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBs_h8HiPN-I1PiT4RpQQjkEzDfF7whYU&callback=initMap"></script>

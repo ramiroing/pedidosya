@@ -1,0 +1,33 @@
+
+
+<div id='perf'>
+	<div class='col-md-12'>
+		<div class='col-md-2'>
+			<img src='assets/perfo.png' width='185' />
+		</div>
+		<div class='perfLine col-md-8'>
+			<p>Una de las tareas mas lentas que se realizan cuando se carga una pagina web es justamente traer los datos desde el servidor.</p>
+			<p>Cada HTTP request toma mucho tiempo relativo al tiempo total de la carga, una buena practica es tratar de minimizar las llamadas al servidor, cachear los objetos necesarios, y reducir el costo de cada llamada realizando tareas de l&oacute;gica de negocio del lado del cliente.</p>
+			<p>La creacion de SPA's (single page apps) es una practica que ayuda a estos fines.</p>
+		</div>
+		<div class='col-md-2'></div>
+	</div>
+
+	<div class='col-md-12'>
+		<div class='col-md-2'></div>
+		<div class='perfLine col-md-8'>
+			<p>Por lo general ejecutar un c&oacute;digo javascript sin 'minificar' es mas lento que ejecutar un codigo que ya fue comprimido, sin contar el tiempo que tarda en transferirse desde el servidor hasta el cliente.</p>
+			<p>Existen librerias (como <a target='_blank' href='https://github.com/mishoo/UglifyJS'>uglify.js</a>) que nos ayudan con estas tareas.</p>
+		</div>
+		<div class='col-md-2'></div>
+	</div>
+
+	<div class='col-md-12'>
+		<div class='col-md-2'></div>
+		<div class='perfLine col-md-8'>
+			<p>Como practica mas costosa se pueden colocar balanceadores de carga en los servidores, esta practica reduce la latencia de los pedidos cuando hay una alta tasa de request/seg.</p>
+			<p>Consiste en, simplemente cuando llega un request al servidor se redirecciona a otro servidor que es el que realmente procesa ese request, cuanto mas grado de paralelismo tengamos mas rapido seran las respuestas.</p>
+		</div>
+		<div class='col-md-2'></div>
+	</div>
+</div>

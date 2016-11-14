@@ -1,0 +1,128 @@
+body{
+	padding-top: 20px;
+}
+#logoutBTN{
+	color:red;
+	font-weight:bold;
+}
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: auto;
+    height: auto;    
+}
+
+#mediaq {
+	padding-top: 10px;
+	border: 1px solid gray;
+}
+
+#titleText {
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px darkgreen;
+}
+
+#title {
+    width: 40%;
+    height: auto;
+    position: relative;
+    -webkit-animation-name: titulo;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: titulo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes titulo {
+    0%   {left:20%; top:0px;}
+    50%  {left:50%; top:0px;}
+    100% {left:20%; top:0px;}
+}
+
+@media screen and (min-width: 0px) and (max-width: 150px){
+	.textMQ {  color: gray; }
+}
+@media screen and (min-width: 151px) and (max-width: 300px){
+	.textMQ { color: orange; }
+}
+@media screen and (min-width: 301px) and (max-width: 450px){
+	.textMQ { color: black; }
+}
+@media screen and (min-width: 451px) and (max-width: 600px){
+	.textMQ { color: pink; }
+}
+@media screen and (min-width: 601px) and (max-width: 750px){
+	.textMQ {color: black;}
+}
+@media screen and (min-width: 751px) and (max-width: 900px){
+	.textMQ { color: yellow;}
+}
+@media screen and (min-width: 901px) and (max-width: 1050px){
+	.textMQ { color: blue; }
+}
+@media screen and (min-width: 1051px) and (max-width: 1300px){
+	.textMQ { color: green; }
+}
+@media screen and (min-width: 1300px){
+	.textMQ { color: red; }
+}
+
+#divPhoto {
+	width: 130px;
+	height: 130px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(../assets/ME.jpg) no-repeat;
+	background-size: 130px;
+}
+
+#perf {
+	padding-top: 5%;
+}
+.gridCell{
+	border-left: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+.markerContainer {
+	padding: 5px;
+}
+
+.perfLine {
+	border-bottom: 1px solid gray;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.flag{
+	border: 1px solid #BBBBBB;
+	cursor: pointer;
+}
+
+#aboutDiv{
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+#map {
+	height: 400px;
+	width: auto;
+	border: 1px solid gray;
+	border-radius: 20px;
+}
+.fields {
+	border-radius: 5px;
+	border: 1px solid darkblue;
+}
+.explainTool{
+	color: #0c1a30;
+	font-size: 12px;
+}
+.explainTitle{
+	color: #0c1a30;
+	font-size: 15px;
+}
+
+.blind { opacity: 0; }
