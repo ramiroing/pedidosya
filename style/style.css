@@ -92,12 +92,15 @@ body{
 
 .htmlRowTop{
 	height: 165px;
+	padding-bottom: 20px;
 }
 .htmlRowMiddle{
 	height: 260px;
+	padding-bottom: 20px;
 }
 .htmlRowBottom{
 	height: 110px;
+	padding-bottom: 20px;
 }
 
 .gridCell{
