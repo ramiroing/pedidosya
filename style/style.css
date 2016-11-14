@@ -82,6 +82,13 @@ body{
 #perf {
 	padding-top: 5%;
 }
+
+.htmlPaddings
+{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
 .gridCell{
 	border-left: 1px solid gray;
 	border-bottom: 1px solid gray;
