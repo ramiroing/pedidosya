@@ -83,10 +83,21 @@ body{
 	padding-top: 5%;
 }
 
+
 .htmlPaddings
 {
-	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+
+.htmlRowTop{
+	height: 165px;
+}
+.htmlRowMiddle{
+	height: 260px;
+}
+.htmlRowBottom{
+	height: 110px;
 }
 
 .gridCell{
